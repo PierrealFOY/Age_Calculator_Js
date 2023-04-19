@@ -1,0 +1,112 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color:lightgrey;
+}
+
+.container {
+    margin-top: 5rem;
+    width: 375px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border:solid #f1f1f1;
+    flex-direction: column;
+    border-radius: 27px 27px 99px 27px;
+    -moz-border-radius: 27px 27px 99px 27px;
+    -webkit-border-radius: 27px 27px 99px 27px;
+    border: 0px solid #000000;
+}
+
+.topDatesInput {
+    width: 80%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: wrap;
+    padding: 2rem;
+}
+
+.topDatesInput input {
+    font-size: 32px;
+    width: 60%;
+    height: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: wrap;
+    border-radius: 6px;
+}
+
+.separator {
+    width: 100%;
+    border-top: 2px solid lightgrey;
+    /* margin: 10px 0; */
+}
+
+
+/* ---------------------------- */
+/* Styles for the bottom dates */
+/* ---------------------------*/
+
+.bottomDatesOutput {
+    font-size: 32px;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 2rem;
+    /* padding-right: 6rem; */
+    font-weight: 800;
+}
+
+output {
+    font-size: 32px;
+    font-weight: 800;
+    color: hsl(259, 100%, 65%);
+}
+
+/* Days Output */
+.daysOutput {
+/* padding: 2rem; */
+display: flex;
+align-items: center;
+flex-direction: row;
+}
+
+.daysOutput p {
+    padding-left: 1rem;
+}
+
+/* Months Output */
+.monthsOutput {
+    /* padding: 2rem; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.monthsOutput p {
+    padding-left: 1rem;
+}
+
+/* Years Output */
+.yearsOutput {
+    /* padding: 2rem; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.yearsOutput p {
+    padding-left: 1rem;
+}
+
+
+
